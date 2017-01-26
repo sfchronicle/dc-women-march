@@ -1,7 +1,6 @@
 .container{
 	img{
   	width:100%;
-  	max-width:550px;
   }
 }
 
@@ -26,15 +25,19 @@
 }
 
 .portrait{
+	margin-top:-9px;
 	.display-flex;
   .flex-direction(row); 
-  .align-content(center);
+  .align-items(center);
+
+
 }
 
 .portrait-reverse{
 	.display-flex;
 	.flex-direction(row-reverse);
-	.align-content(center);
+  .align-items(center);
+
 }
 
 .img, .quote{
@@ -42,9 +45,8 @@
 }
 
 .quote{
-	padding: 0 1em 0 3em;
+	padding: 0 3em 0 2em;
   font-family: @med-graphics;
-  margin-top: 15%;
   max-width: 600px;
 }
 
