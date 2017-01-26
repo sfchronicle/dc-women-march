@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.seo_title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="__sync_contentCategory" content="meterA">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <%= !json.project.embedded ? t.include("partials/_paywall.html") : t.include("partials/_embedframe.html") %>
+
+    <%= t.include("partials/_head.html") %>
+
+  </head>
+
+  <%= !json.project.embedded ? "<body>" : "<body is='responsive-body'>" %>
+
+    <div class="container">
+
+      <div id="header">
+        <h1>Pussyhats and the power of pink</h1>
+        <p>In the 2016 presidential campaign, red Make America Great Again caps were the calling card for supporters of Donald Trump, and women standing with Hillary Clinton donned pantsuits at the polls. In Civic Center, some of those affected by a Bay Area run on pink yarn because of the project (first reported in The Chronicle last week by Sarah Ravani) varied the materials, color and pattern for more individual catty caps.</p>
+      </div>
+
+      <% json.pussyhat.forEach(function(img) { %>
+      <div class="<%= img.class %>">
+        <div class="img">
+          <img src="<%= img.img %>">
+        </div>
+        <div class="quote"><%= img.quote %>”<div class="home"><%= img.home %></div></div>
+      </div>
+
+
+
+    <% }); %>
+
+
+
+
+    </div>
+
+    <%= t.include("partials/_footer.html") %>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_helloSFC.html") %>
+
+  </body>
+</html>

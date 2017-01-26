@@ -1,0 +1,67 @@
+.container{
+	img{
+  	width:100%;
+  	max-width:550px;
+  }
+}
+
+#header{
+	
+	h1{
+		text-align:center;
+		font-family:@med-graphics;
+		text-transform:uppercase;
+		max-width:700px;
+		margin: 0 auto;
+		width:100%;
+		line-height:1.2;
+		font-size:3em;
+	}
+
+	p{
+		text-align:center;
+		font-size:0.9em;
+		max-width:750px;
+	}
+}
+
+.portrait{
+	.display-flex;
+  .flex-direction(row); 
+  .align-content(center);
+}
+
+.portrait-reverse{
+	.display-flex;
+	.flex-direction(row-reverse);
+	.align-content(center);
+}
+
+.img, .quote{
+	.flex(0 0 50%);
+}
+
+.quote{
+	padding: 0 1em 0 3em;
+  font-family: @med-graphics;
+  margin-top: 15%;
+  max-width: 600px;
+}
+
+.quote:before {
+    color: #ccc;
+    content: '“';
+    font-size: 10em;
+    line-height: 0;
+    margin-right: 0;
+    vertical-align: -0.4em;
+    font-family: @title;
+}
+
+.quote:after {
+    display: block;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    font-size: 0.6em;
+    letter-spacing: 0.05em;
+}
