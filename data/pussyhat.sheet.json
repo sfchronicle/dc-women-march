@@ -3,55 +3,55 @@
     "id": "valente",
     "name": "Julie Valente",
     "img": "http://ww2.hdnux.com/photos/56/53/07/12235237/5/920x920.jpg",
-    "quote": "I wanted to show up and wanted the world and government to hear what we had to say and what matters to us. We make over 50 percent of the world and only 19 percent of Congress, and people haven’t been listening to us. I felt that coming together would help reinforce our message",
+    "quote": "I wanted to show up and wanted the world and government to hear what we had to say and what matters to us. We make over 50 percent of the world and only 19 percent of Congress, and people haven’t been listening to us. I felt that coming together would help reinforce our message.",
     "home": "Emeryville",
     "class": "portrait"
-  },
-  {
-    "id": "cuevas",
-    "name": "Deborah Cuevas",
-    "img": "http://ww3.hdnux.com/photos/56/53/07/12235246/5/1024x1024.jpg",
-    "quote": "I came because I believe in it 100 percent. I would not miss it for the world. This is something that I truly believe in, and for my children and grandchildren this has to be done",
-    "home": "Martinez",
-    "class": "portrait-reverse"
   },
   {
     "id": "cox",
     "name": "Veronica Cox",
     "img": "http://ww1.hdnux.com/photos/56/53/10/12235312/5/1024x1024.jpg",
-    "quote": "As a woman of color, I feel that so many of my rights are threatened by this current administration, and I can’t and I refuse to sit idly by while they’re taken away, and I will do everything I can to fight",
+    "quote": "As a woman of color, I feel that so many of my rights are threatened by this current administration, and I can’t and I refuse to sit idly by while they’re taken away, and I will do everything I can to fight.",
     "home": "San Francisco",
+    "class": "portrait-reverse"
+  },
+  {
+    "id": "nickerson",
+    "name": "Tessa Nickerson",
+    "img": "http://ww1.hdnux.com/photos/56/53/10/12235276/5/1024x1024.jpg",
+    "quote": "I want Trump to know that he cannot divide us and that we are all one.",
+    "home": "Humboldt County",
     "class": "portrait"
   },
   {
     "id": "constanza",
     "name": "Jean Constanza",
     "img": "http://ww4.hdnux.com/photos/56/53/07/12235247/5/1024x1024.jpg",
-    "quote": "I’m here because Donald Trump is very scary in terms of his views on rights, what he thinks of women, and his plans which are horrible and very dangerous",
+    "quote": "I’m here because Donald Trump is very scary in terms of his views on rights, what he thinks of women, and his plans which are horrible and very dangerous.",
     "home": "Los Angeles",
     "class": "portrait-reverse"
+  },
+  {
+    "id": "cuevas",
+    "name": "Deborah Cuevas",
+    "img": "http://ww3.hdnux.com/photos/56/53/07/12235246/5/1024x1024.jpg",
+    "quote": "I came because I believe in it 100 percent. I would not miss it for the world. This is something that I truly believe in, and for my children and grandchildren this has to be done.",
+    "home": "Martinez",
+    "class": "portrait"
   },
   {
     "id": "tung",
     "name": "Nancy Tung",
     "img": "http://ww2.hdnux.com/photos/56/53/07/12235249/5/1024x1024.jpg",
-    "quote": "After the election, this is the most important place to take a stand for women’s rights, for immigrant rights, for LGBT rights and rights of the press across America. California can’t give up hope on the rest of America, and we need to come together in order to make this country a better place for everyone",
+    "quote": "After the election, this is the most important place to take a stand for women’s rights, for immigrant rights, for LGBT rights and rights of the press across America. California can’t give up hope on the rest of America, and we need to come together in order to make this country a better place for everyone.",
     "home": "San Francisco",
-    "class": "portrait"
-  },
-  {
-    "id": "nickerson",
-    "name": "Tessa Nickerson",
-    "img": "http://ww1.hdnux.com/photos/56/53/10/12235276/5/1024x1024.jpg",
-    "quote": "I want Trump to know that he cannot divide us and that we are all one",
-    "home": "Humboldt County",
     "class": "portrait-reverse"
   },
   {
     "id": "torres",
     "name": "Allison Torres",
     "img": "http://ww3.hdnux.com/photos/56/53/10/12235278/5/1024x1024.jpg",
-    "quote": "I come here to protect women’s rights. It’s not so much about protesting but protecting women’s rights for the long haul",
+    "quote": "I come here to protect women’s rights. It’s not so much about protesting but protecting women’s rights for the long haul.",
     "home": "El Cerrito",
     "class": "portrait"
   },
@@ -59,32 +59,24 @@
     "id": "brugman",
     "name": "Gretchen Brugman",
     "img": "http://ww4.hdnux.com/photos/56/53/10/12235283/5/1024x1024.jpg",
-    "quote": "Coming together with women after this election is one of the things that has given me strength",
+    "quote": "Coming together with women after this election is one of the things that has given me strength.",
     "home": "Truckee",
     "class": "portrait-reverse"
-  },
-  {
-    "id": "waddell",
-    "name": "Kase Waddell",
-    "img": "http://ww3.hdnux.com/photos/56/53/10/12235286/5/1024x1024.jpg",
-    "quote": "This is an early opportunity to show my objection to this administration, and I was fortunate to be invited along with my female friends and it has been a very satisfying experience",
-    "home": "Long Beach",
-    "class": "portrait"
   },
   {
     "id": "wyne",
     "name": "Dana Wyne",
     "img": "http://ww1.hdnux.com/photos/56/53/10/12235288/5/1024x1024.jpg",
-    "quote": "I came here today to add my voice to the millions of people here today and also to those that came before me who helped us enjoy the rights that we have today",
+    "quote": "I came here today to add my voice to the millions of people here today and also to those that came before me who helped us enjoy the rights that we have today.",
     "home": "Boulder Creek (Santa Cruz County)",
-    "class": "portrait-reverse"
+    "class": "portrait"
   },
   {
     "id": "narayan",
     "name": "Vasuki Narayan",
     "img": "http://ww4.hdnux.com/photos/56/53/10/12235311/5/1024x1024.jpg",
-    "quote": "It’s really important that we have our voices heard, and this is just the beginning",
+    "quote": "It’s really important that we have our voices heard, and this is just the beginning.",
     "home": "San Francisco",
-    "class": "portrait"
+    "class": "portrait-reverse"
   }
 ]
