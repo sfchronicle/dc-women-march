@@ -7,9 +7,7 @@
     <meta name="__sync_contentCategory" content="meterA">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-
     <%= !json.project.embedded ? t.include("partials/_paywall.html") : t.include("partials/_embedframe.html") %>
-
     <%= t.include("partials/_head.html") %>
 
   </head>
@@ -21,11 +19,12 @@
     <div class="container">
 
       <div id="header">
+        <div class="hat"><img src="./assets/photos/hat.jpg"></div>
         <h1>Portraits in the power of pink</h1>
         <%= t.include("partials/_social.html") %>
-        <div class="date">Jan. 26, 2017</div>
-        <div class="photographer">Photos by <a href="" target="_blank">Gabrielle Lurie</a></div>
-        <p>These portraits are of women who travelled from California to attend the Women’s March in Washington D.C. Ahead of the march was a rally where speakers and musicians spoke to the crowd and addressed human rights issues.</p>
+        <div class="date">Jan. 30, 2017</div>
+        <div class="photographer">Photos by <a href="https://www.instagram.com/gabrielleluriephoto/" target="_blank">Gabrielle Lurie</a></div>
+        <p>Before the Women’s March in Washington, D.C. on Jan. 21, I climbed up into a tree and saw the hundreds of thousands of people prepared to march. After a few minutes, I realized I wanted to hear from individuals. I approached the California group and asked to take portraits and get their perspectives and reasons for being there. I flipped over the back of a poster and used the white side as my backdrop. I got a variety of responses, and it was wonderful to see California residents representing themselves at a powerful march.</p>
       </div>
 
       <% json.pussyhat.forEach(function(img) { %>
@@ -40,6 +39,7 @@
 
     </div>
 
+    <%= t.include("partials/_credits.html") %>
     <%= t.include("partials/_footer.html") %>
 
     <script src="app.js" async></script>

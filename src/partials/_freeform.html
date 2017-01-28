@@ -1,0 +1,19 @@
+<div class="freeform-link">
+      <a href="">
+        <img class="freeform-img" src="http://ww2.hdnux.com/photos/56/53/07/12235237/5/920x920.jpg">
+        <div class="freeform-text">View portraits</div>
+      </a>
+    </div>
+
+    <style type="text/css">
+      .freeform-link{max-width: 300px;margin:0 auto;position: relative;}
+      .freeform-img{width:100%;}
+      .freeform-text{position: absolute;bottom: 14px;color: #fff !important;left: 14px;text-transform: uppercase;padding: 5px 10px;font-family: sans-serif;background: rgba(101, 101, 101, 0.8);font-size: 15px;cursor: pointer;}
+      .freeform-text:hover{background: rgba(158, 158, 158, 0.8)}
+    </style>
+    <script type="text/javascript">
+      $('.freeform-link').hover(
+        function(){$('.freeform-text').css('background', 'rgba(158, 158, 158, 0.8)')},
+        function(){$('.freeform-text').css('background', '')}
+      );
+    </script>
